@@ -1,4 +1,4 @@
-# Minimal Ubuntu GUI
+# Scripts to setup bloatwareless Ubuntu GUI
 
 ## Content:
 1. [Ubuntu 24.04 minimal without bloatware](#ubuntu-2404-minimal-without-bloatware)
