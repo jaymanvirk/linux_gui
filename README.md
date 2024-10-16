@@ -2,18 +2,18 @@
 
 ## Ubuntu Desktop 24.04 minimal without bloatware
 
-After installing minimal [Ubuntu Desktop 24.04](https://ubuntu.com/download/desktop), clone this repo
+After installing minimal [Ubuntu Desktop 24.04](https://ubuntu.com/download/desktop), clone this repo and then:
 
-```bash
-git clone https://github.com/jaymanvirk/ubuntu_gui_minimal.git ubuntu_gui_minimal
-cd ubuntu_gui_minimal
-```
-
-then run
-
+1. Remove unnecessary packages and apps
 ```bash
 sudo bash clean.sh
 ```
+2. Install hardware drivers
+   - Mac:
+```bash
+sudo bash install_mac.sh
+```
+
 
 ## License
 This project is licensed under the MIT License.
