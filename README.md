@@ -1,4 +1,4 @@
-# Scripts to setup bloatwareless Ubuntu GUI
+# Scripts to setup bloatwareless Linux GUI
 
 ## Ubuntu Desktop 24.04 minimal without bloatware
 
