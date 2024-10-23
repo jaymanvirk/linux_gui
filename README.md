@@ -1,14 +1,10 @@
 # Scripts to setup bloatwareless Linux GUI
 
-## Ubuntu Desktop 24.04 minimal
+## Debian Desktop 12.7.0 
 
-After installing minimal [Ubuntu Desktop 24.04](https://ubuntu.com/download/desktop), clone this repo and then:
+After installing minimal [Debian Desktop 12.7.0](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/), clone this repo and then:
 
-1. Remove unnecessary packages and apps
-```bash
-sudo bash clean.sh
-```
-2. Install hardware drivers
+1. Install hardware drivers
 ```bash
 # Mac hardware
 sudo bash install_mac.sh
