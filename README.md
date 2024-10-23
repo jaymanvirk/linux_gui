@@ -10,6 +10,11 @@ After installing minimal [Debian Desktop 12.7.0](https://cdimage.debian.org/debi
 sudo bash install_mac.sh
 ```
 
+## TODO:
+1. faster boot-up: update grub
+2. cpu performance mode: cpufrequtils
+3. wifi driver
+4. sd-card driver
 
 ## License
 This project is licensed under the MIT License.
