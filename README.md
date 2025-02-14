@@ -1,8 +1,8 @@
 # Scripts to setup bloatwareless Linux GUI
 
-## Debian Desktop
+## Debian Desktop XFCE
 
-After installing [Debian Desktop](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/), clone this repo and then:
+After installing [Debian Desktop XFCE](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/), clone this repo and then:
 
 1. Update /etc/apt/sources.list
 ```bash
