@@ -24,7 +24,19 @@ sudo apt update && sudo apt upgrade -y
     ```bash
     lspci -nnk | grep -A2 0280
     ```
-
+    2. Install drivers for the listed hardware
+   ```bash
+    # Broadcom
+    sudo apt install broadcom-sta-dkms
+    ```
+    3. Check installation
+    ```bash
+    sudo modprobe wl
+    ```
+    4. Reboot system to apply drivers
+   ```bash
+    sudo reboot
+    ```
 
 ## License
 This project is licensed under the MIT License.
