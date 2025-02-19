@@ -31,6 +31,7 @@ sudo apt update && sudo apt upgrade -y
     ```
     3. Check installation
     ```bash
+    # Broadcom
     sudo modprobe wl
     ```
     4. Reboot system to apply drivers
