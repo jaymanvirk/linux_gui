@@ -2,29 +2,42 @@
 
 ## Arch
 1. Connect to Wi-Fi network
-   1. Enter iwctl Environment
+   1. Use rfkill to check if the wireless adapter is blocked
+   ```bash
+   rfkill list
+   ```
+   2. Unblock all (for now)
+   ```bash
+   rfkill unblock all
+   ```
+   3. Enter iwctl Environment
    ```bash
    iwctl
    ```
-   2. List Available Devices
+   4. List Available Devices
    ```bash
    station list
    ```
-   3. Scan for Networks\
+   5. Scan for Networks\
 Replace wlan0 with your device name if necessary
    ```bash
    station wlan0 scan
    ```
-   4. List Available Networks
+   6. List Available Networks
    ```bash
    station wlan0 get-networks
    ```
-   5. Connect to a Network\
+   7. Connect to a Network\
 Replace SSID_NAME with the name of your network
    ```bash
-   station wlan0 connect "SSID_NAME"
+   station wlan0 connect <SSID_NAME>
    ```
-   6. Enter Wi-Fi password
+   8. Enter Wi-Fi password
+  
+2. Start archinstall
+```bash
+archinstall
+```
 
 ## Debian Desktop XFCE
 
