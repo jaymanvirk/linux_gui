@@ -10,34 +10,33 @@
    ```bash
    rfkill unblock all
    ```
-   3. Enter iwctl Environment
+   3. Enter iwctl environment
    ```bash
    iwctl
    ```
-   4. List Available Devices
+   4. List available devices
    ```bash
    station list
    ```
-   5. Scan for Networks\
-Replace wlan0 with your device name if necessary
+   5. Scan for networks
    ```bash
    station wlan0 scan
    ```
-   6. List Available Networks
+   6. List available networks
    ```bash
    station wlan0 get-networks
    ```
-   7. Connect to a Network\
-Replace SSID_NAME with the name of your network
+   7. Connect to a network
    ```bash
    station wlan0 connect <SSID_NAME>
    ```
-   8. Enter Wi-Fi password
   
 2. Start archinstall minimal
 ```bash
+# TODO: add config install
 archinstall
 ```
+
 3. Verify DNS configuration
    1. Open and edit /etc/resolv.conf
    ```bash
@@ -46,7 +45,6 @@ archinstall
    2. Add nameservers
    ```bash
    nameserver 8.8.8.8
-   nameserver 8.8.4.4
    ```
    3. Restart dhcpcd
    ```bash
