@@ -34,11 +34,24 @@ Replace SSID_NAME with the name of your network
    ```
    8. Enter Wi-Fi password
   
-2. Start archinstall
+2. Start archinstall minimal
 ```bash
 archinstall
 ```
-
+3. Verify DNS configuration
+   1. Open and edit /etc/resolv.conf
+   ```bash
+   sudo vim /etc/resolv.conf
+   ```
+   2. Add nameservers
+   ```bash
+   nameserver 8.8.8.8
+   nameserver 8.8.4.4
+   ```
+   3. Restart dhcpcd
+   ```bash
+   sudo systemctl restart dhcpcd
+   ```
 ## Debian Desktop XFCE
 
 After installing [Debian Desktop XFCE](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/), clone this repo and then:
