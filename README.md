@@ -33,8 +33,7 @@
   
 2. Start archinstall minimal
 ```bash
-# TODO: add config install
-archinstall
+archinstall --config /path/to/your/config.json
 ```
 
 3. Verify DNS configuration
